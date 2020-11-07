@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/searchpage.css">
     <title>Search page</title>
 </head>
 <body>
-    <header>
+    <header id="header">
         <div id="logo_container">
             <img src="images/googlelogo.png" alt="google logo" id="logo" />
           </div>
           <div id="searchbar_container">
             <i class="fas fa-user-plus"></i>
-            <input type="text" placeholder="" />
+            <input type="text" placeholder="" id="searchbar"/>
           </div>
           <div id="searchbar-links">
             <a href="">All</a>
@@ -25,7 +26,7 @@
             <a href="">Tools</a>
           </div>
     </header>
-    <main>
+    <main id="main">
         <p>About 115,000,000 results (0.50 seconds)</p>
         <div class="search-result">
             <p class="green_text">victor-if.github.io > <span class="normal_text">google-search-results</span></p>
@@ -37,8 +38,8 @@
             <a href="" class="search_link">Build this Webpage - Github Pages</a>
             <p class="search_paragraph">build this webpage. With zero coding experience, artist builds 180 webpages in 180 days...</p>
         </div>
+        <h3>Videos</h3>
         <section id="video_results">
-            <h3>Videos</h3>
             <div class="video_search_result">
                 <video src=""></video>
                 <a href="" class="search_link">How to make a Website in 10 mins - Simple & Easy</a>

@@ -105,6 +105,8 @@ button {
     font-weight: 500;
 }
 
+
+
 @media (max-width: 550px) {
     #searchbar_container{
         width: 90%;
