@@ -4,5 +4,5 @@ Create a copy of the Google Homepage (easy mode) and/or Google Search Results pa
 
 Technnologies used:
 HTML
-CSS with Flexbox
+CSS
 git
